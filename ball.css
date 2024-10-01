@@ -1,0 +1,47 @@
+*{ 
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+}
+.name{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: circle 10s infinite;
+    position: relative;
+}
+@keyframes circle{
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: red;
+
+    }
+    25%{
+        top: 0px;
+        left: 1425px;
+        background-color: lightgreen;
+    }
+    50%{
+        top: 720px;
+        left: 1425px;
+        background-color: lightblue;
+
+    }
+    75%{
+        top: 720px;
+        left: 0px;
+        background-color: blue;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: yellow;
+
+    }
+}
